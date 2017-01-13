@@ -3,6 +3,10 @@
 #include <ctype.h>
 #include <string.h>
 
+// Converts a full name to just uppercase initials
+// ex: John Doe ---> JD
+
+
 int main(void){
     string initials = get_string();
     // print the first uppercase initial if only one word
